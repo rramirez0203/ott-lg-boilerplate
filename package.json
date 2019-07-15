@@ -2,11 +2,10 @@
   "name": "boilerplate-lg",
   "version": "1.0.0",
   "main": "./src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+  "scripts": {    
     "start": "webpack-dev-server --progress --colors --mode development",
     "build": "webpack --mode development",
-    "build-lg": "ares-package --no-minify -e 'node_modules' -e '.babelrc' -e '.gitignore' -e 'package-lock.json'  boilerplate-lg/"
+    "build-lg": "ares-package --no-minify -e 'node_modules' -e '.babelrc' -e '.gitignore' -e 'package-lock.json'  ../boilerplate-lg/ --outdir ./build"
   },
   "author": "",
   "license": "ISC",

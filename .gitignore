@@ -7,3 +7,4 @@ yarn.lock
 .babelrc
 dist/bundle.css
 dist/bundle.js
+build
