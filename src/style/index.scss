@@ -1,0 +1,10 @@
+$theme-font: verdana, sans-serif;
+body {
+  .title {
+    font-family: $theme-font;
+    color: white;
+    position: absolute;
+    left: 40%;
+    top:45%;
+  }
+}
